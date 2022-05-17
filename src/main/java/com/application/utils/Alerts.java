@@ -2,8 +2,6 @@ package com.application.utils;
 import javafx.scene.control.Alert;
 public class Alerts {
     public static Alert infoAlert = new Alert(Alert.AlertType.WARNING);
-//    public static final String FILE_NOT_FOUND = "File does not exists";
-//    public static final String FILE_OR_KEY_NOT_FOUND = "File or Key does not exists";
 
     public static void sendErrorFileNotFound() {
         infoAlert.setTitle("");
