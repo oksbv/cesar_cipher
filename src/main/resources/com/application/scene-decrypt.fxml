@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.controllers.DecryptSceneController">
+   <children>
+      <Button fx:id="btnChooseFile" layoutX="141.0" layoutY="40.0" mnemonicParsing="false" onAction="#handleBtnChooseFile" prefHeight="26.0" prefWidth="84.0" text="CHOOSE FILE" AnchorPane.rightAnchor="375.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font></Button>
+      <Button fx:id="btnSubmit" layoutX="490.0" layoutY="78.0" mnemonicParsing="false" onAction="#handleBtnSubmit" prefHeight="26.0" prefWidth="84.0" text="SUBMIT" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="78.0">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font></Button>
+      <TextField fx:id="directory" layoutX="243.0" layoutY="40.0" prefHeight="26.0" prefWidth="331.0" promptText="File Directory" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font></TextField>
+      <TextArea fx:id="textArea" layoutX="31.0" layoutY="112.0" prefHeight="232.0" prefWidth="545.0" promptText="Decrypted text" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="29.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="112.0">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font></TextArea>
+      <Button fx:id="btnExport" layoutX="492.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBtnExport" prefHeight="26.0" prefWidth="84.0" text="EXPORT" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font></Button>
+      <TextField fx:id="keyField" layoutX="243.0" layoutY="78.0" prefHeight="26.0" prefWidth="223.0" promptText="Enter key" AnchorPane.rightAnchor="134.0" AnchorPane.topAnchor="78.0">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>

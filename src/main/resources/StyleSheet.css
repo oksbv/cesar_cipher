@@ -1,0 +1,33 @@
+.toggle-button {
+    -fx-background-color: #2e4c8f;
+    -fx-background-radius: 0em;
+    -fx-text-fill: #ffff;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #3a65bb;
+}
+.toggle-button:pressed{
+    -fx-background-color: #16025a;
+}
+.toggle-button:focused{
+    -fx-background-color: #1d2951;
+    -fx-border-color: #CDD1D6;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+.toggle-button:selected{
+    -fx-background-color: #1d2951;
+    -fx-border-color: #CDD1D6;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+.toggle-button:selected:focused {
+    -fx-background-color: #1d2951;
+    -fx-border-color: #CDD1D6;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+.table-view{
+    -fx-background-color: #2e4c8f;
+}
+.menu-bar{
+    -fx-background-color: #1d2951;
+}
